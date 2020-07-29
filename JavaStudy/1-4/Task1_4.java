@@ -9,6 +9,8 @@ public class Task1_4 {
 
   // 定数（条件）
   // ① 名前とパスワードの定数を定義してください。
+  String name = "Kengo";
+  String pass = "password";
 
 
   // 補足:
@@ -32,27 +34,23 @@ public class Task1_4 {
 
       if (name.equals("alice") && pass.equals("pass")){
         System.out.println("ログイン成功です");
-      }    else{
-        System.out.println("ログインできません");
-      }
+      } 
 
       // ③ 名前のみ正しい場合、「 パスワードに誤りがあります。 」と出力してください。
-      if ( name.equals("alice") && !(pass.equals("pass")) ){
+      else if ( name.equals("alice") && !(pass.equals("pass")) ){
         System.out.println("パスワードに誤りがあります。");
       }    
 
 
       // ④ パスワードのみ正しい場合、「 名前に誤りがあります。 」と出力してください。
-      if ( !(name.equals("alice")) && pass.equals("pass") ){
+      else if ( !(name.equals("alice")) && pass.equals("pass") ){
         System.out.println("名前に誤りがあります。");
       }   
 
       // ⑤ 名前もパスワードも間違っていた場合は、「 入力情報に誤りがあります。 」と出力してください。
-      if ( !(name.equals("alice")) && !(pass.equals("pass")) ){
+      else {
         System.out.println("入力情報に誤りがあります。");
       }   
-
-
   }
 
 }
