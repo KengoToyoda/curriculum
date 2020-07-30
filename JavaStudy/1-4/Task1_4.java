@@ -9,8 +9,8 @@ public class Task1_4 {
 
   // 定数（条件）
   // ① 名前とパスワードの定数を定義してください。
-  String name = "Kengo";
-  String pass = "password";
+  String name = "名前";
+  String password = "パスワード";
 
 
   // 補足:
