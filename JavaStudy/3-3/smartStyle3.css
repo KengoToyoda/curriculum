@@ -1,0 +1,43 @@
+@media(max-width:479px){
+  #wrapper{
+    max-width: 200px;
+    height: auto;
+  }
+  main{
+    float: none;
+  }
+  main .left{
+    width: 200px;
+    height: 100px;
+  }
+
+  header{
+    height: 200px;
+  }
+  header ul{
+    left: 70px;
+    right: 70px;
+    width: 60px;
+    background: #fff;
+    display: inline-block;
+    height: 160px;
+  }
+  header ul li:nth-child(1){
+    margin-bottom: 10px;
+  }
+  header ul li:nth-child(2){
+    margin-bottom: 10px;
+  }
+  main .right{
+    width: 200px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+  } 
+  main .right ul li{
+    width: 140px;
+  } 
+
+
+
+
+}
