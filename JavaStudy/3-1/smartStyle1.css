@@ -1,0 +1,27 @@
+@media(max-width:767px){
+  #wrapper{
+    max-width: 250px;
+    height: auto;
+  }
+
+  main .right{
+    width:100px;
+    background: #8c2727;
+  }
+  
+}
+@media(max-width:497px){
+  #wrapper{
+    max-width: 150px;
+    height: auto;
+  }
+
+  main .right{
+    width:150px;
+    background: #8c2727;
+  }
+  
+  main {
+    overflow: hidden;
+  }
+}

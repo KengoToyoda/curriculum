@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1, h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+
+#wrapper{
+  max-width: 400px;
+  height: auto;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header{
+height: 100px;
+background: #141f40;
+}
+
+main h2{
+  float: left;
+  height: 250px;
+}
+main .left{
+  width: 150px;
+  background: #80bfa8;
+}
+main .right{
+  width: 250px;
+  background: #8c2727;
+}
+
+footer{
+  height: 100px;
+  background: #d98d30;
+}
